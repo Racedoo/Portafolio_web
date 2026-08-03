@@ -1,0 +1,177 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+#contenedor-inicial {
+  background-image: url(img/fondo.svg);
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: 100% auto;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 24px;
+  margin-left: 100px;
+}
+
+nav ul {
+  display: flex;
+  gap: 2rem;
+  list-style: none;
+  margin-right: 85px;
+  padding: 0;
+}
+
+nav a {
+  text-decoration: none;
+  color: white;
+  font-family: "Sen", sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+  padding: 0;
+}
+
+#inicio-saludo {
+  color: white;
+  font-family: "Inter", sans-serif;
+  font-size: 32px;
+  font-weight: bold;
+  margin-bottom: 16px;
+}
+
+h1 {
+  color: white;
+  font-family: "Inter", sans-serif;
+  font-size: 64px;
+  font-weight: bold;
+  margin-bottom: 24px;
+}
+
+#incio-resaltado {
+  color: #007fff;
+  font-family: "Inter", sans-serif;
+  font-size: 32px;
+  font-weight: bold;
+  margin-bottom: 24px;
+}
+
+#inicio-descripcion {
+  color: white;
+  font-family: "Inter", sans-serif;
+  font-size: 20px;
+  font-weight: normal;
+  margin-bottom: 40px;
+}
+
+#redes-sociales {
+  margin-bottom: 40px;
+}
+
+#boton-cv {
+  background-color: #0080ff;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  border: 0;
+  border-radius: 15px;
+}
+
+#boton-cv a {
+  text-decoration: none;
+  color: white;
+  font-family: "Sen", sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+#inicio {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 100px;
+  min-height: 100vh;
+}
+
+#inicio-imagen img {
+  margin-right: 85px;
+}
+
+#sobre-mi {
+  width: 100%;
+  height: 60vh;
+  display: flex;
+  justify-content: space-between;
+  background-color: #1c2226;
+}
+
+.contenedor-foto {
+  width: 500px;
+  height: 500px;
+  margin: 0;
+  padding: 0;
+}
+
+.contenedor-foto img {
+  width: 500px;
+  height: 500px;
+}
+
+.informacion {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+}
+
+span {
+  color: #007fff;
+  font-weight: bold;
+}
+
+.sobre-mi-h2 {
+  color: white;
+  font-family: "Inter", sans-serif;
+  font-size: 32px;
+  font-weight: bold;
+  margin-bottom: 40px;
+}
+
+.sobre-mi-p {
+  color: white;
+  font-family: "Inter", sans-serif;
+  font-size: 20px;
+  font-weight: normal;
+}
+
+#tecnologias {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #1c2226;
+}
+
+.tecnologias-h2 {
+  color: #0080ff;
+  text-shadow: 0 0 20px #0080ff;
+  font-family: "Inter", sans-serif;
+  font-size: 32px;
+  font-weight: bold;
+}
+
+.contenedor-tecnologias h3 {
+  color: white;
+  font-family: "Inter", sans-serif;
+  font-size: 32px;
+  font-weight: bold;
+}
