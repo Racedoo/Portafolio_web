@@ -42,9 +42,15 @@
             desarrollador web, que busca su primera experiencia laboral.
           </p>
           <div id="redes-sociales">
+            <div class="contenedor-redes">
             <img src="img/linkedin.svg" alt="Linkedin" />
+            </div>
+            <div class="contenedor-redes">
             <img src="img/github.svg" alt="Github" />
+            </div>
+            <div class="contenedor-redes">
             <img src="img/email.svg" alt="Email" />
+            </div>
           </div>
           <button id="boton-cv">
             <a href="">Descargar CV</a>
@@ -161,12 +167,12 @@
             <img class="curso-icono" src="img/aprendizaje-icono.svg" alt="Icono de aprendizaje">
 
             <header>
-              <h3 class="curso-h3">A2 English for Developers Certification - freeCodeCamp</h3>
+              <h3 class="curso-h3">A2 English for Developers - freeCodeCamp</h3>
             </header>
 
             <p class="curso-descripcion">
               Consta de los conceptos básicos de la comunicación en inglés y se
-              centra en un vocabulario útil para desarrolladores.
+              centra en un vocabulario para desarrolladores.
             </p>
 
             <p class="estado">En proceso</p>
@@ -256,57 +262,58 @@
         <!-- Proyectos -->
         <h2 class="proyectos-h2">Mis proyectos</h2>
 
-        <div class="contenedor-proyectos">
-          <article class="proyecto-destacado">
-            <img src="img/proyecto1.png" alt="Proyecto Desarrollo Web" />
-
-            <div class="contenido">
-              <h3>Desarrollo Web</h3>
-
-              <p>
-                “Qué prefieres” es un proyecto libre que realice durante el
+        <article class="contenedor-proyectos">
+          <div class="card">
+          <img src="img/Proyecto1.png" alt="proyecto">
+          <p class="overlay">Desarrollo Web<br><br>
+            “Qué prefieres” es un proyecto libre que realice durante el
                 programa “Yo puedo programar” en el que utilice los
                 conocimientos adquiridos sobre HTML, CSS y Javascript
-              </p>
+          </p>
+          </div>
 
-              <div class="botones">
-                <a href="#" class="github">
-                  <img src="img/github.svg" alt="GitHub" />
-                </a>
+          <div class="card">
+          <img src="img/Proyecto2.png" alt="proyecto">
+          <p class="overlay">Desarrollo Web<br><br>
+            Un juego didactico hecho para un stand de Pirateria Digital. Para esta web se utilizó HTML, CSS y Javascript
+          </p>
+          </div>
 
-                <a href="#" class="demo"> ▶ </a>
-              </div>
-            </div>
-          </article>
-          <article class="proyecto-destacado">
-            <img src="img/proyecto1.png" alt="Proyecto Desarrollo Web" />
+          <div class="card">
+          <img src="img/Proyecto3.png" alt="proyecto">
+          <p class="overlay">Diseño Web<br><br>
+            Un prototipo de pagina web sobre un gimnasio hecho durante la cursada del colegio técnico en Informatica. Hecho en Figma
+          </p>
+          </div>
 
-            <div class="contenido">
-              <h3>Desarrollo Web</h3>
+          <div class="card">
+          <img src="img/Proyecto4.png" alt="proyecto">
+          <p class="overlay">Diseño Web<br><br>
+            Un prototipo de pagina web sobre un gimnasio hecho durante la cursada del colegio técnico en Informatica. Hecho en Figma
+          </p>
+          </div>
+          
+          <div class="card">
+          <img src="img/Proyecto5.png" alt="proyecto">
+          <p class="overlay">Diseño Web<br><br>
+            Un prototipo de pagina web sobre el videojuego Lego DC Super-Villains hecho con el fin de practicar en Figma
+          </p>
+          </div>
 
-              <p>
-                “Qué prefieres” es un proyecto libre que realice durante el
-                programa “Yo puedo programar” en el que utilice los
-                conocimientos adquiridos sobre HTML, CSS y Javascript
-              </p>
-
-              <div class="botones">
-                <a href="#" class="github">
-                  <img src="img/github.svg" alt="GitHub" />
-                </a>
-
-                <a href="#" class="demo"> ▶ </a>
-              </div>
-            </div>
-          </article>
-        </div>
+          <div class="card">
+          <img src="img/Proyecto6.png" alt="proyecto">
+          <p class="overlay">Desarrollo Web<br><br>
+            Un formulario de relevamiento de hardware hecho durante la cursada del Colegio Técnico en Informatica con HTML
+          </p>
+          </div>
+        </article>
       </section>
 
       <section id="contacto">
         <!-- Contacto -->
         <header class="contacto-header">
-          <h2>¿Tenés un proyecto en mente?</h2>
-          <p>
+          <h2 class="contacto-h2">¿Tenés un proyecto en mente?</h2>
+          <p class="contacto-p">
             Estoy disponible para colaborar en proyectos web o responder
             cualquier consulta.
           </p>
@@ -323,25 +330,27 @@
             <input type="text" placeholder="Asunto" required />
           </div>
 
-          <div class="fila">
+
+          <div>
             <textarea
               placeholder="Contame sobre tu proyecto o consulta..."
               required
             ></textarea>
           </div>
-
-          <button type="submit">Enviar</button>
+          <div class="boton-div">
+          <button class="boton-formulario" type="submit">Enviar</button>
+          </div>
         </form>
       </section>
     </main>
 
-    <footer>
+    <footer class="footer">
       <!-- Footer -->
       <footer>
         <p>© 2026 Matías Racedo</p>
-
+        <br>
         <p>Desarrollado por Matías Racedo - Programación VI</p>
-
+        <br>
         <p>
           Íconos por
           <a href="https://icons8.com" target="_blank">Icons8</a>
