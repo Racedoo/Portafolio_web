@@ -225,6 +225,13 @@ span {
   border: 2px solid #2a3150;
   box-sizing: border-box;
   justify-content: center;
+  border: 3px solid transparent;
+}
+
+.tecnologia:hover{
+  box-shadow: 0 4px 42px #0080ff;
+  border: 3px solid #007fff;
+  transition: 300ms ease-out;
 }
 
 /* seccion habilidades */
@@ -258,6 +265,13 @@ span {
   border: 2px solid #2a3150;
   box-sizing: border-box;
   justify-content: center;
+  border: 3px solid transparent;
+}
+
+.habilidad:hover{
+  box-shadow: 0 4px 42px #0080ff;
+  border: 3px solid #007fff;
+  transition: 300ms ease-out;
 }
 
 .contenedor-habilidades {
@@ -413,8 +427,15 @@ span {
   margin-bottom: 80px;
 }
 
+.experiencia-tarjeta:hover{
+  box-shadow: 0 4px 42px #0080ff;
+  border: 3px solid #007fff;
+  transition: 300ms ease-out;
+}
+
 .experiencia-tarjeta {
   background-color: #141a2e;
+  border: 3px solid transparent;
   display: flex;
   flex-direction: row;
 }
@@ -472,7 +493,7 @@ span {
 
 .experiencia-tarjeta {
   border-radius: 25px;
-  border: 2px solid #2a3150;
+  border: 3px solid #2a3150;
   box-sizing: border-box;
 }
 
